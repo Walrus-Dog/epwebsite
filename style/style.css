@@ -1,0 +1,143 @@
+
+:root {
+    --dark-bg: #242424;
+    --gray-bg: #575757;
+    --light-text: #e2e2e2;
+    --dark-text: #242424;
+    --highlight: #ff5100;
+}
+
+.icon {
+    display: inline-block;
+    width: 3em;
+    height: 3em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
+body {
+    background-color: var(--dark-bg);
+    font-size: calc((.9 - 1) * 1.2vw + 1rem);
+}
+
+/* header section */
+.header {
+    background-color: var(--dark-bg);
+    font-family: 'Mukta', sans-serif;
+    line-height: 1;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    width: 100%;
+}
+
+.nav-wrapper {
+    padding-top: 1.3vw;
+}
+
+.header-nav-item a {
+    color: var(--light-text);
+    margin-right: 1.5vw;
+    font-size: calc((.9 - 1) * 1vw + 1.3rem);
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.header-nav-item a:hover {
+    color: var(--highlight);
+}
+
+.header-logo {
+    text-align: center;
+}
+
+.logo {
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.header-social-nav {
+    margin-top: 0.5vw;
+}
+
+.header-social-nav a {
+    color: var(--light-text);
+    margin-left: 2vw;
+}
+
+.header-social-nav a:hover {
+    color: var(--highlight);
+}
+
+/* main */
+
+/* section 1 */
+.large-logo-wrapper {
+    position: relative;
+}
+
+.exit-logo {
+    position: absolute;
+    width: 800px;
+}
+
+/* section 2 */
+.small-about-wrapper {
+    color: var(--light-text);
+    font-family: 'Mukta', sans-serif;
+    position: relative;
+}
+
+.small-about-inner {
+    position: absolute;
+}
+
+.small-about-header {
+    font-size: calc((6 - 1) * 1vw + 1.3rem);
+}
+
+.small-about-text-wrapper {
+    font-size: calc((.9 - 1) * 1vw + 1.3rem);
+    width: 900px;
+}
+
+.large-art-two {
+    filter: opacity(25%);
+}
+
+/* footer */
+
+.socials-footer {
+    background-color: var(--gray-bg);
+    font-size: calc((.9 - 1) * 1vw + 1.3rem);
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    width: 100%;
+}
+
+.footer-social-nav a {
+    color: var(--light-text);
+    font-size: calc((.7 - 1) * 1vw + 1.3rem);
+    margin-left: 2vw;
+}
+
+.footer-social-nav a:hover {
+    color: var(--highlight);
+}
+
+.colophon {
+    background-color: var(--dark-bg);
+    color: var(--light-text);
+    font-family: 'Mukta';
+    font-size: calc((.9 - 1) * 1vw + 1.3rem);
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    width: 100%;
+}
