@@ -1,6 +1,7 @@
 
 :root {
     --dark-bg: #242424;
+    --darker-bg:#000;
     --gray-bg: #575757;
     --light-text: #e2e2e2;
     --dark-text: #242424;
@@ -75,69 +76,52 @@ body {
 /* main */
 
 /* section 1 */
-.large-logo-wrapper {
-    position: relative;
+
+.large-logo-sec {
+    background-image: url(../media/ep-art1.jpg);
+    background-attachment:scroll;
+    width: 100%;
 }
 
 .exit-logo {
-    position: absolute;
-    width: 800px;
+    /* position: absolute; */
+    margin-top: 10.5vw;
+    margin-bottom: 10.5vw;
+    width: 40vw;
 }
 
 /* section 2 */
-.small-about-wrapper {
+.short-desc-sec {
+    background-image: 
+    linear-gradient(#2a78dd, #ff6600),
+    url(../media/ep-art2.jpg);
+    background-blend-mode: difference;
+    background-attachment: fixed;
     color: var(--light-text);
-    font-family: 'Mukta', sans-serif;
-    position: relative;
+    text-align: center;
+    height: 70vh;
+    width: 100%vw;
 }
 
-.small-about-inner {
-    position: absolute;
+.short-desc-wrapper {
+    padding-top: 25vh;
+    padding-bottom: 25vh;
 }
 
-.small-about-header {
-    font-size: calc((6 - 1) * 1vw + 1.3rem);
-}
-
-.small-about-text-wrapper {
-    font-size: calc((.9 - 1) * 1vw + 1.3rem);
-    width: 900px;
-}
-
-.large-art-two {
-    filter: opacity(25%);
-}
-
-/* footer */
-
-.socials-footer {
-    background-color: var(--gray-bg);
-    font-size: calc((.9 - 1) * 1vw + 1.3rem);
-    padding-top: 2vw;
-    padding-bottom: 2vw;
-    padding-left: 4vw;
-    padding-right: 4vw;
-    width: 100%;
-}
-
-.footer-social-nav a {
+/* section 3 */
+.us-sec {
     color: var(--light-text);
-    font-size: calc((.7 - 1) * 1vw + 1.3rem);
-    margin-left: 2vw;
+    height: 70vh;
+    text-align: center;
 }
 
-.footer-social-nav a:hover {
-    color: var(--highlight);
+.ph1 {
+    background-color: var(--darker-bg);
+    padding-top: 25vh;
+    padding-bottom: 25vh; 
 }
 
-.colophon {
-    background-color: var(--dark-bg);
+/* section 3 */
+.join-up-sec {
     color: var(--light-text);
-    font-family: 'Mukta';
-    font-size: calc((.9 - 1) * 1vw + 1.3rem);
-    padding-top: 2vw;
-    padding-bottom: 2vw;
-    padding-left: 4vw;
-    padding-right: 4vw;
-    width: 100%;
 }
