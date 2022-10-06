@@ -20,12 +20,12 @@
 body {
     background-color: var(--dark-bg);
     font-size: calc((.9 - 1) * 1.2vw + 1rem);
+    font-family: 'Mukta', sans-serif;
 }
 
 /* header section */
 .header {
     background-color: var(--dark-bg);
-    font-family: 'Mukta', sans-serif;
     line-height: 1;
     padding-top: 2vw;
     padding-bottom: 2vw;
@@ -84,7 +84,6 @@ body {
 }
 
 .exit-logo {
-    /* position: absolute; */
     margin-top: 10.5vw;
     margin-bottom: 10.5vw;
     width: 40vw;
@@ -121,7 +120,99 @@ body {
     padding-bottom: 25vh; 
 }
 
-/* section 3 */
+/* section 4 */
 .join-up-sec {
+    color: var(--highlight);
+    padding-bottom: 18vh; 
+}
+
+.join-up-sec li {
+    list-style-type: none;
+}
+
+.join-up-sec a {
     color: var(--light-text);
+    text-decoration: none;
+}
+
+.join-up-sec a:hover {
+    color: var(--highlight);
+}
+
+.join-up-about {
+    color: var(--light-text);
+    text-align: center;
+}
+
+.join-up-header {
+    margin-bottom: 4vh;
+}
+
+.join-up-text {
+    margin-bottom: 4vh;
+}
+
+/* section 5 */
+.break1-sec {
+    background-image: linear-gradient(#2a78dd, #ff6600), 
+    url(../media/ep-art3.jpg);
+    background-blend-mode: difference;
+    height: 84vh;
+    text-align: center;
+}
+
+.break1-header {
+    color: var(--light-text);
+    padding-top: 42vh;
+}
+
+/* section 6 */
+.media-sec {
+    color: var(--light-text);
+    height: 500px;
+    text-align: center;
+    padding-top: 10vh;
+}
+
+/* section 7 */
+.break2-sec {
+    background-image:linear-gradient(#114c998f, #04ffc986),
+    url(../media/ep-art4.jpg);
+    background-blend-mode: difference;
+    background-attachment: fixed;
+    height: 110vh;
+    text-align: center;
+}
+
+.break2-header {
+    color: var(--light-text);
+    padding-top: 55vh;
+}
+
+/* footer */
+.footer {
+    color: var(--light-text);
+    font-size: calc((1.1 - 1) * 1vw + 1.3rem);
+    padding-top: 4vh;
+    padding-bottom: 3vh;
+}
+
+.footer a {
+    color: var(--light-text);
+    margin-right: 1.5vw;
+    font-size: calc((.7 - 1) * 1vw + 1.3rem);
+}
+
+.socials-list-item a:hover {
+    color: var(--highlight);
+}
+
+.socials-footer-wrapper {
+    justify-content: right;
+    padding-right: 4vh;
+}
+
+.colophon {
+    justify-content: left;
+    padding-left: 4vh;
 }
